@@ -1,5 +1,5 @@
 # my-rides
-This summer I've been training for a bike race and tracking all of training!  I wanted to make a dashboard showing my progress this summer, and to do that, I needed to convert all of my ride data to useable tables.  
+This summer I've been training for a bike race and tracking all of training!  I wanted to make a dashboard showing my progress this summer, and to do that, I needed to convert all of my ride data to useable tables.  Garmin bike systems record activities and can be exported as a tcx file.  I used the lxml package to parse this tree into a usable dataframe.
 
 # tcx_trackpoints.py
 
